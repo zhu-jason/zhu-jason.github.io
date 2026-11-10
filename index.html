@@ -1,17 +1,265 @@
+
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>Jason Zhu</title>
-   </head>
-   <p>
-    Hi! My name is Jason Zhu, and I'm a current senior at Stanford University studying pursuing a B.S in Mathematics and a coterminal M.S. in Computational and Mathematical Engineering. I'm originally from Texas but currently based in the East Coast working remotely as part of Stanford's Management Science and Engineering Undergraduate Research program.
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jason Zhu - PhD student in Industrial and Systems Engineering at Georgia Tech. Research in optimization and variational inequalities.">
+    <title>Jason Zhu</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            max-width: 850px;
+            margin: 65px auto;
+            padding: 0 28px;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 16px;
+            line-height: 1.7;
+            color: #333;
+            background: #fff;
+        }
+
+        .profile-photo {
+            width: 170px;
+            height: 210px;
+            object-fit: cover;
+            object-position: center;
+            float: right;
+            margin: 5px 0 20px 25px;
+            border-radius: 4px;
+        }
+
+        a {
+            color: #315f8c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            margin-bottom: 35px;
+        }
+
+        h1 {
+            font-family: Arial, sans-serif;
+            font-size: 34px;
+            font-weight: 600;
+            margin: 0 0 4px;
+            color: #222;
+        }
+
+        .subtitle {
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+            color: #666;
+            margin: 0 0 18px;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 22px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 13px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        section {
+            margin-top: 34px;
+        }
+
+        h2 {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: #222;
+            margin-bottom: 12px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .paper {
+            margin-bottom: 22px;
+        }
+
+        .paper-title {
+            font-weight: bold;
+        }
+
+        .paper-details {
+            font-size: 15px;
+        }
+
+        .links {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        footer {
+            margin-top: 65px;
+            padding-top: 15px;
+            border-top: 1px solid #ddd;
+            color: #888;
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                margin: 35px auto;
+                padding: 0 20px;
+            }
+
+            h1 {
+                font-size: 29px;
+            }
+
+            nav {
+                gap: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Jason Zhu</h1>
+
+    <p class="subtitle">
+        Ph.D. Student in Industrial and Systems Engineering<br>
+        Georgia Institute of Technology
+    </p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a href="cv.pdf">CV</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About</h2>
+
+    <img src="profile.jpg" alt="Jason Zhu"
+         class="profile-photo">
+
+    <p>
+        I am a Ph.D. student in the H. Milton Stewart School of
+        Industrial and Systems Engineering at the Georgia Institute
+        of Technology, where I am advised by
+        <a href="https://www.isye.gatech.edu/users/guanghui-lan">Professor Guanghui Lan</a>.
     </p>
 
     <p>
-    My academic interests are broadly in applied math, numerical analysis, and probability theory. Previously, I've done work in various research programs at Stanford such as SURIM and CURIS. Some of my previous projects include work with high dimensional tensor decompositions and deep learning with computer graphics. My most recent work involves the simulation and statistical estimation of a certain class of stochastic processes called max-stable random fields.
+        My research interests lie broadly in mathematical optimization,
+        with an emphasis on large-scale optimization algorithms,
+        variational inequalities, and stochastic optimization.
+        I am particularly interested in developing theoretically
+        grounded methods that are computationally efficient and
+        applicable to large-scale problems.
+    </p>
+
+    <p class="links">
+        <a href="mailto:jzhu657@gatech.edu">Email</a> &nbsp;/
+        <a href="https://github.com/zhu-jason">GitHub</a> &nbsp;/
+        <a href="https://scholar.google.com/citations?user=skTj9rIAAAAJ&hl=en">Google Scholar</a> &nbsp;/
+        <a href="cv.pdf">CV</a>
+    </p>
+</section>
+
+<section id="research">
+    <h2>Research Interests</h2>
+
+    <ul>
+        <li>Large-scale continuous optimization</li>
+        <li>Variational inequalities</li>
+        <li>Stochastic optimization</li>
+        <li>First-order methods and algorithmic complexity</li>
+    </ul>
+</section>
+
+<section id="publications">
+    <h2>Publications and Preprints</h2>
+
+
+
+    <div class="paper">
+        <div class="paper-title">
+          Computation of Strong Solutions to Stochastic Variational Inequalities
+        </div>
+        <div class="paper-details">
+            Yao Ji, Guanghui Lan, Jason Zhu<br>
+            arXiv Preprints
+        </div>
+        <div class="links">
+            [<a href="https://arxiv.org/abs/2609.04188">Paper</a>]
+        </div>
+    </div>
+
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <ul>
+        <li>
+            Ph.D. in Operations Research,
+            Georgia Institute of Technology (Expected 2030)
+        </li>
+        <li>
+            M.S. in Compuational and Mathematical Engineering,
+            Stanford University (2023)
+        </li>
+        <li>
+            B.S. in Mathematics
+            Stanford University (2022)
+        </li>
+        <!-- Add your previous degrees here -->
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>
+        H. Milton Stewart School of Industrial and Systems Engineering<br>
+        Georgia Institute of Technology<br>
+        Atlanta, GA, USA
     </p>
 
     <p>
-    Aside from academics, I play classical piano and dance with Stanford's Common Origins dance team! I also speak four languages, including English, Spanish, Mandarin Chinese, and Hokkien.
-  </p>
+        Email: <a href="mailto:jzhu657@gatech.edu">
+            jzhu657@gatech.edu
+        </a>
+    </p>
+</section>
+
+<footer>
+    © 2026 Jason Zhu
+</footer>
+
+</body>
 </html>
